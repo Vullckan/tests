@@ -4,22 +4,22 @@ import java.util.Scanner;
 
 public class HomeWork1_5_3 {
     public static void main(String[] args) {
-        System.out.println("Как вас зовут?");
+        System.out.println("РљР°Рє РІР°СЃ Р·РѕРІСѓС‚?");
         Scanner input = new Scanner(System.in);
         String name = input.nextLine();
-        String answer = "Я тебя так долго ждал";
+        String answer = "РЇ С‚РµР±СЏ С‚Р°Рє РґРѕР»РіРѕ Р¶РґР°Р»";
         switch (name) {
-            case "Вася" : {
-                System.out.println("Привет!");
+            case "Р’Р°СЃСЏ" : {
+                System.out.println("РџСЂРёРІРµС‚!");
                 System.out.println(answer);
                 break;
             }
-            case "Анастасия" : {
+            case "РђРЅР°СЃС‚Р°СЃРёСЏ" : {
                 System.out.println(answer);
                 break;
             }
             default :
-                System.out.println("Добрый день, а вы кто?");
+                System.out.println("Р”РѕР±СЂС‹Р№ РґРµРЅСЊ, Р° РІС‹ РєС‚Рѕ?");
         }
     }
 }

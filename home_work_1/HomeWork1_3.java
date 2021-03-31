@@ -3,49 +3,49 @@ package HomeWork1;
 public class HomeWork1_3 {
     static double result;
 
-    public static double cosinus(double k){                 // косинус угла в радианах
+    public static double cosinus(double k){                 // РєРѕСЃРёРЅСѓСЃ СѓРіР»Р° РІ СЂР°РґРёР°РЅР°С…
         result = Math.cos(k);
         System.out.println(result);
         return result;
     }
 
-    public static double sinus(double k){                   // синус угла в радианах
+    public static double sinus(double k){                   // СЃРёРЅСѓСЃ СѓРіР»Р° РІ СЂР°РґРёР°РЅР°С…
         result = Math.sin(k);
         System.out.println(result);
         return result;
     }
 
-    public static double tangens(double k){                 // тангенс угла в радианах
+    public static double tangens(double k){                 // С‚Р°РЅРіРµРЅСЃ СѓРіР»Р° РІ СЂР°РґРёР°РЅР°С…
         result = Math.tan(k);
         System.out.println(result);
         return result;
     }
 
-    public static double cotangens(double k){                 // котангенс угла в радианах
+    public static double cotangens(double k){                 // РєРѕС‚Р°РЅРіРµРЅСЃ СѓРіР»Р° РІ СЂР°РґРёР°РЅР°С…
         result = 1 / Math.tan(k);
         System.out.println(result);
         return result;
     }
 
-    public static double pow(double k){                     // корень третьей степени числа
+    public static double pow(double k){                     // РєРѕСЂРµРЅСЊ С‚СЂРµС‚СЊРµР№ СЃС‚РµРїРµРЅРё С‡РёСЃР»Р°
         result = Math.pow(k, (double)1 / 3);
         System.out.println(result);
         return result;
     }
 
-    public static double sqrt(double k){                    // квадратный корень числа
+    public static double sqrt(double k){                    // РєРІР°РґСЂР°С‚РЅС‹Р№ РєРѕСЂРµРЅСЊ С‡РёСЃР»Р°
         result = Math.sqrt(k);
         System.out.println(result);
         return result;
     }
 
-    public static double max(double k, double l){             // определение максимального числа из двух сравниваемых чисел
+    public static double max(double k, double l){             // РѕРїСЂРµРґРµР»РµРЅРёРµ РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ С‡РёСЃР»Р° РёР· РґРІСѓС… СЃСЂР°РІРЅРёРІР°РµРјС‹С… С‡РёСЃРµР»
         result = Math.max(k, l);
         System.out.println(result);
         return result;
     }
 
-    public static double exp(double k){                     // вычисление функции e в степени x
+    public static double exp(double k){                     // РІС‹С‡РёСЃР»РµРЅРёРµ С„СѓРЅРєС†РёРё e РІ СЃС‚РµРїРµРЅРё x
         result = Math.exp(k);
         System.out.println(result);
         return result;

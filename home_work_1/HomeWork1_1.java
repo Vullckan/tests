@@ -7,90 +7,90 @@ public class HomeWork1_1 {
     static String txt2;
 
     public static int setNOT(int c){
-        txt1 = "побитовый унарный оператор NOT\":\t\t\t\t\t\t";
+        txt1 = "РїРѕР±РёС‚РѕРІС‹Р№ СѓРЅР°СЂРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ NOT\":\t\t\t\t\t\t";
         txt2 = "~ " + c + " = ";
         return ~ c;
     }
 
     public static int doAND(int c, int d){
-        txt1 = "побитовый AND\":\t\t\t\t\t\t\t\t \t \t ";
+        txt1 = "РїРѕР±РёС‚РѕРІС‹Р№ AND\":\t\t\t\t\t\t\t\t \t \t ";
         txt2 = c + " & " + d + " = ";
         return c & d;
     }
 
     public static int doANDSet(int c, int d){
-        txt1 = "побитовый AND с присваиванием\":\t\t\t\t\t\t";
+        txt1 = "РїРѕР±РёС‚РѕРІС‹Р№ AND СЃ РїСЂРёСЃРІР°РёРІР°РЅРёРµРј\":\t\t\t\t\t\t";
         txt2 = c + " &= " + d + "   ";
         c &= d;
         return c;
     }
 
     public static int doOR(int c, int d){
-        txt1 = "побитовый OR\":\t\t\t\t\t\t\t\t \t \t ";
+        txt1 = "РїРѕР±РёС‚РѕРІС‹Р№ OR\":\t\t\t\t\t\t\t\t \t \t ";
         txt2 = c + " | " + d + " = ";
         return c | d;
     }
 
     public static int doORSet(int c, int d){
-        txt1 = "побитовый OR с присваиванием\":\t\t\t\t\t\t";
+        txt1 = "РїРѕР±РёС‚РѕРІС‹Р№ OR СЃ РїСЂРёСЃРІР°РёРІР°РЅРёРµРј\":\t\t\t\t\t\t";
         txt2 = c + " |= " + d + "   ";
         c |= d;
         return c;
     }
 
     public static int doExclusiveOR(int c, int d){
-        txt1 = "побитовый исключающее OR\":\t\t\t\t\t\t\t ";
+        txt1 = "РїРѕР±РёС‚РѕРІС‹Р№ РёСЃРєР»СЋС‡Р°СЋС‰РµРµ OR\":\t\t\t\t\t\t\t ";
         txt2 = c + " ^ " + d + " = ";
         return c ^ d;
     }
 
     public static int doExclusiveORSet(int c, int d){
-        txt1 = "побитовый исключающее OR с присваиванием\":\t\t\t";
+        txt1 = "РїРѕР±РёС‚РѕРІС‹Р№ РёСЃРєР»СЋС‡Р°СЋС‰РµРµ OR СЃ РїСЂРёСЃРІР°РёРІР°РЅРёРµРј\":\t\t\t";
         txt2 = c + " ^= " + d + "   ";
         c ^= d;
         return c;
     }
 
     public static int setShiftRight(int c){
-        txt1 = "сдвиг вправо\":\t\t\t\t\t\t\t\t\t\t ";
+        txt1 = "СЃРґРІРёРі РІРїСЂР°РІРѕ\":\t\t\t\t\t\t\t\t\t\t ";
         txt2 = c + " >> 2 = ";
         c = c >> 2;
         return c;
     }
 
     public static int setShiftRightSet(int c){
-        txt1 = "сдвиг вправо с присваиванием\":\t\t\t\t\t\t";
+        txt1 = "СЃРґРІРёРі РІРїСЂР°РІРѕ СЃ РїСЂРёСЃРІР°РёРІР°РЅРёРµРј\":\t\t\t\t\t\t";
         txt2 = c + " >>= 2   ";
         return c >>= 2;
     }
 
     public static int setShiftRightFillZero(int c){
-        txt1 = "сдвиг вправо с заполнением нулями\":\t\t\t\t\t";
+        txt1 = "СЃРґРІРёРі РІРїСЂР°РІРѕ СЃ Р·Р°РїРѕР»РЅРµРЅРёРµРј РЅСѓР»СЏРјРё\":\t\t\t\t\t";
         txt2 = c + " >>> 2 = ";
         c = c >>> 2;
         return c;
     }
 
     public static int setShiftLeft(int c){
-        txt1 = "сдвиг влево\":\t\t\t\t\t\t\t\t\t\t ";
+        txt1 = "СЃРґРІРёРі РІР»РµРІРѕ\":\t\t\t\t\t\t\t\t\t\t ";
         txt2 = c + " << 2 = ";
         c = c << 2;
         return c;
     }
 
     public static int setShiftLeftSet(int c){
-        txt1 = "сдвиг влево с присваиванием\":\t\t\t\t\t\t";
+        txt1 = "СЃРґРІРёРі РІР»РµРІРѕ СЃ РїСЂРёСЃРІР°РёРІР°РЅРёРµРј\":\t\t\t\t\t\t";
         txt2 = c + " <<= 2   ";
         return c <<= 2;
     }
 
     public static int setShiftRightFillZeroSet(int c){
-        txt1 = "сдвиг вправо с заполнением нулями с присваиванием\": ";
+        txt1 = "СЃРґРІРёРі РІРїСЂР°РІРѕ СЃ Р·Р°РїРѕР»РЅРµРЅРёРµРј РЅСѓР»СЏРјРё СЃ РїСЂРёСЃРІР°РёРІР°РЅРёРµРј\": ";
         return c >>>= 2;
     }
 
     public static void print(int k){
-        System.out.print("Результат операции \"" + txt1 + txt2 + k);
+        System.out.print("Р РµР·СѓР»СЊС‚Р°С‚ РѕРїРµСЂР°С†РёРё \"" + txt1 + txt2 + k);
     }
 
 
@@ -99,10 +99,10 @@ public class HomeWork1_1 {
         String txtA = Integer.toBinaryString(a);
         String txtB = Integer.toBinaryString(b);
 
-        System.out.println("\t\t\t\tЦелочисленное число " + a + ";\t// двоичный код числа\t" + txtA);
-        System.out.println("\t\t\t\tЦелочисленное число " + b + ";\t// двоичный код числа\t" + txtB);
+        System.out.println("\t\t\t\tР¦РµР»РѕС‡РёСЃР»РµРЅРЅРѕРµ С‡РёСЃР»Рѕ " + a + ";\t// РґРІРѕРёС‡РЅС‹Р№ РєРѕРґ С‡РёСЃР»Р°\t" + txtA);
+        System.out.println("\t\t\t\tР¦РµР»РѕС‡РёСЃР»РµРЅРЅРѕРµ С‡РёСЃР»Рѕ " + b + ";\t// РґРІРѕРёС‡РЅС‹Р№ РєРѕРґ С‡РёСЃР»Р°\t" + txtB);
 
-        String txt3 = "\t\t\t// двоичный код результата\t";
+        String txt3 = "\t\t\t// РґРІРѕРёС‡РЅС‹Р№ РєРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°\t";
 
         int result1 = setNOT(a);
         print(result1);

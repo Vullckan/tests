@@ -11,15 +11,15 @@ public class HomeWork1_4 {
         if (weekday == false && vacation == true)
             result = true;
         if (result == true)
-            System.out.println("Можем спать дальше");
-        else System.out.println("Нужно вставать на работу");
+            System.out.println("РњРѕР¶РµРј СЃРїР°С‚СЊ РґР°Р»СЊС€Рµ");
+        else System.out.println("РќСѓР¶РЅРѕ РІСЃС‚Р°РІР°С‚СЊ РЅР° СЂР°Р±РѕС‚Сѓ");
         return result;
     }
 
     public static void main(String[] args) {
-        // sleepIn(false, false);                           // У нас выходной. Можем спать дальше
+        // sleepIn(false, false);                           // РЈ РЅР°СЃ РІС‹С…РѕРґРЅРѕР№. РњРѕР¶РµРј СЃРїР°С‚СЊ РґР°Р»СЊС€Рµ
         sleepIn(true,  false);
-        // sleepIn(false, true);                            // У нас отпуск. Можем спать дальше
+        // sleepIn(false, true);                            // РЈ РЅР°СЃ РѕС‚РїСѓСЃРє. РњРѕР¶РµРј СЃРїР°С‚СЊ РґР°Р»СЊС€Рµ
 
     }
 }

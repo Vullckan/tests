@@ -1,7 +1,5 @@
 package HomeWork1;
 
-import java.util.ArrayList;
-
 public class HomeWork1_1 {
     static String txt1;
     static String txt2;
@@ -86,6 +84,7 @@ public class HomeWork1_1 {
 
     public static int setShiftRightFillZeroSet(int c){
         txt1 = "сдвиг вправо с заполнением нулями с присваиванием\": ";
+        txt2 = c + " >>>= 2   ";
         return c >>>= 2;
     }
 
